@@ -1,12 +1,14 @@
 {{!< default}}
 
 <header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}} data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50" data-stellar-vertical-offset="50">
+<!--
 	<a href="/" id="blog-title">{{@blog.title}}</a>
+-->
 	{{> links}}
 	<div class="cf"></div>
 	
 	<div id="title">
-		<h1>A clean & simple template for ghost</h1>
+		<h1>{{@blog.title}}</h1>
 		<h2>{{@blog.description}}</h2>
 	</div>
 
