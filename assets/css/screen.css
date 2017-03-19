@@ -200,7 +200,7 @@ article h1 a{
 article h1 a:hover{color:#00D9D9;}
 
 .meta{
-	text-transform:uppercase;
+	text-transform:none;
 	line-height:1.1;
 	letter-spacing:2px;
 	font-size:15px;
